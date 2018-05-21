@@ -5,7 +5,7 @@ Created an application in local folder & ran following commands in that folder:
 git init
  git status
 git add [filename1 filename2]
-git commit -u "CommitComment"
+git commit -m "CommitComment"
  git log
 
 Created a repo via github & ran foll commands:
