@@ -27,3 +27,11 @@ git pull origin master --allow-unrelated-histories
 
 git clone https://github.com/nitcoding/Angular.git
 [then u'll do some changes & 'add commit push' move them up in hub]
+
+Find Out:
+-- Pull multiple repos in one go i.e. take latest of all
+Need to try [https://www.npmjs.com/package/git-pull-all]
+npm install -g git-pull-all
+
+
+-- How to Compare given file with latest version
