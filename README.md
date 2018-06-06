@@ -1,12 +1,12 @@
-# Angular
-AngularJS
-
 Created an application in local folder & ran following commands in that folder:
 git init
  git status
 git add [filename1 filename2]
 git commit -m "CommitComment"
  git log
+
+How to escape git log
+type 'q'
 
 Created a repo via github & ran foll commands:
 git remote add origin https://github.com/nitcoding/Angular.git (to make the connection b/n local repo & hub repo)
@@ -28,10 +28,19 @@ git pull origin master --allow-unrelated-histories
 git clone https://github.com/nitcoding/Angular.git
 [then u'll do some changes & 'add commit push' move them up in hub]
 
-Find Out:
--- Pull multiple repos in one go i.e. take latest of all
-Need to try [https://www.npmjs.com/package/git-pull-all]
-npm install -g git-pull-all
+git remote -v
+shows origin , but need to check
 
+git branch
+will show all branches (* marked is active branch)
 
--- How to Compare given file with latest version
+Assuming marked branch is not active, Now to switch to master
+git checkout master
+Now to take latest 
+git pull origin master
+
+git checkout -b Bug18170 (I guess it will create new banch named 'Bug18170')
+output : Switched to a new branch 'Bug18170'
+
+git checkout Bug17724
+o/p:Switched to branch 'Bug17724'
